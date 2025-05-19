@@ -1,4 +1,6 @@
-monkeywrench-ai-framework/
+monkeywrench-ai-/
+├── FRONTEND            # New: Next.js frontend (React)
+├──BACKEND
 ├── README.md
 ├── LICENSE
 ├── .gitignore
