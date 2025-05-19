@@ -1,0 +1,28 @@
+monkeywrench-ai-framework/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+├── setup.py
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+├── notebooks/
+├── src/
+│   ├── __init__.py
+│   ├── config/
+│   ├── data/
+│   ├── models/
+│   ├── evaluation/
+│   ├── utils/
+│   └── canbus/
+│       └── can_interface.py   # Python 3.8 CAN bus communication starter
+├── tests/
+│   └── test_can_interface.py  # Example test for CAN interface
+├── scripts/                   # For automation and external scripting
+├── docs/
+└── manufacturers/
+    ├── ford/
+    ├── toyota/
+    ├── honda/
