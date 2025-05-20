@@ -1,15 +1,33 @@
-monkeywrench-ai-/
+## MonkeyWrenchAI ##
+
+---
+
 ├── FRONTEND            # New: Next.js frontend (React)
-├──BACKEND
+├── BACKEND
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 ├── requirements.txt
 ├── setup.py
+├── ai_env/                      # AI environment configs/scripts
+│   ├── ml/                      # Traditional ML experiments/configs
+│   │   ├── requirements.txt
+│   │   └── env.yml
+│   ├── deep_learning/           # Deep Learning experiments/configs
+│   │   ├── requirements.txt
+│   │   └── env.yml
+│   └── README.md                # Setup/usage instructions
+├── notebooks/
+│   ├── ml/                      # ML-focused notebooks
+│   ├── deep_learning/           # DL-focused notebooks
+│   └── README.md
+├── src/
+│   ├── ml/                      # ML models, utils, pipelines
+│   ├── deep_learning/           # DL models, utils, pipelines
+│   └── ...                      # Existing structure
 ├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
+│   ├── ml/
+│   ├── deep_learning/
 ├── notebooks/
 ├── src/
 │   ├── __init__.py
@@ -19,12 +37,19 @@ monkeywrench-ai-/
 │   ├── evaluation/
 │   ├── utils/
 │   └── canbus/
-│       └── can_interface.py   # Python 3.8 CAN bus communication starter
+└── can_interface.py   # Python 3.8 CAN bus communication starter
+├──  manufacturers/
+|    ├── ford/
+|    ├── toyota/
+|    ├── honda/
+├── data-templates/
+│   ├── ford_template.md
+│   └── toyota_template.md
+├── data/-----------OEM Manufacturer/
+│   ├── raw/
+│   ├── processed/
+│   └── external/       
 ├── tests/
 │   └── test_can_interface.py  # Example test for CAN interface
 ├── scripts/                   # For automation and external scripting
-├── docs/
-└── manufacturers/
-    ├── ford/
-    ├── toyota/
-    ├── honda/
+└──docs/
