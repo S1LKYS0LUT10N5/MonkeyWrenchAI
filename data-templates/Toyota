@@ -1,0 +1,31 @@
+# Ford CAN Bus Dataset Template
+
+**Brand:** TOYOTA  
+**Model(s):** [Insert model]  
+**Year(s):** [Insert years]  
+**Data Owner:** [Your Name or Contributor]  
+**Source:** [Describe how data was captured]  
+**License:** [State if open, proprietary, or restricted. Must be compatible with project licensing.]
+
+## Data Description
+
+- Logging Tool: [E.g., ValueCAN, CANalyzer, etc.] 
+- Format: [.csv/.asc/.blf/etc.]
+- Channel: [fCAN/bCAN]
+- Description: [Short summary of what this dataset covers: normal operation, specific fault, attack simulation, etc.]
+
+---
+
+## Data Sample
+
+| Timestamp | CAN ID | DLC | Data (Hex) | Module | Notes |
+|-----------|--------|-----|------------|--------|-------|
+| ...       | ...    | ... | ...        | ...    | ...   |
+
+[Attach or link to file if too large]
+
+---
+
+## Special Considerations
+
+[List any privacy, legal, or technical constraints. E.g., “This data is anonymized and does not contain proprietary calibration values.”]
